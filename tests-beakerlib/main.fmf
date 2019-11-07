@@ -1,0 +1,4 @@
+test: ./runtest.sh
+contact: Robin Hack <rhack@redhat.com>
+component: tuned
+duration: 5m

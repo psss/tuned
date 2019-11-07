@@ -1,0 +1,9 @@
+summary:
+    Test basic functionality
+discover:
+    how: fmf
+prepare:
+    how: ansible
+    playbooks: plans/packages.yml
+execute:
+    how: beakerlib
