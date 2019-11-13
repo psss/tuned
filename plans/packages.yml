@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: Install necessary dependencies
+    dnf:
+      state: present
+      name:
+        - tuned
+        - beakerlib-libraries
