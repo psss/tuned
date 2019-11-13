@@ -3,4 +3,6 @@
   - name: Install necessary dependencies
     dnf:
       state: present
-      name: tuned beakerlib-libraries
+      name:
+        - tuned
+        - beakerlib-libraries
